@@ -554,6 +554,16 @@
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.366.tgz"
   "version" "1.4.366"
 
+"emailjs-com@^3.2.0":
+  "integrity" "sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA=="
+  "resolved" "https://registry.npmjs.org/emailjs-com/-/emailjs-com-3.2.0.tgz"
+  "version" "3.2.0"
+
+"emailjs@^4.0.2":
+  "integrity" "sha512-w/tldI93qO7uw9XzdwCCRR36OY/TYJxB81vEOmQkmxVDZOdrAnoQoOAvaMoDmmBUSoD1msyAIwBdKFWzC7lgKQ=="
+  "resolved" "https://registry.npmjs.org/emailjs/-/emailjs-4.0.2.tgz"
+  "version" "4.0.2"
+
 "encodeurl@~1.0.2":
   "integrity" "sha512-TPJXq8JqFaVYm2CWmPvnP2Iyo4ZSM7/QKcSmuMLDObfpH5fi7RUGmd/rTDf+rut/saiDiQEeVTNgAmJEdAOx0w=="
   "resolved" "https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz"
