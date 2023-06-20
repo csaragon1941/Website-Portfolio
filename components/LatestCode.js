@@ -9,7 +9,7 @@ export default function LatestCode({ repositories }) {
   return (
     <section className="bg-[#F7F4F3] -mt-40 dark:bg-[#1F1F1F] pb-40">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 mx-10">
+        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 py-40 mx-10">
           <h1 className="text-6xl lg:text-7xl max-w-lg font-bold text-brown-300 my-20 md:my-30 md:text-[#221E1B] dark:text-[#FFFFFF] text-center lg:text-left">
             Latest Code
           </h1>

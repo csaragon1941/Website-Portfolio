@@ -34,7 +34,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="space-x-8 hidden md:block">
+        <div className="space-x-8 hidden md:block relative">
           {/* About */}
           <Link
             href="/about"
@@ -109,12 +109,8 @@ export default function Navbar() {
             Experience
           </Link>
 
-
-
-
-
-          {/* Experience Dropdown 
-          <div className="relative inline-block">
+           
+          <div className="md: relative inline-block">
             <h1>
               <button
                 onMouseEnter={() => setShowExperienceDropdown(true)}
@@ -147,15 +143,15 @@ export default function Navbar() {
                   }}
                   onMouseLeave={() => setShowExperienceDropdown(false)}
                   className="absolute z-10 mt-2 space-y-2 p-2 bg-white dark:bg-[#0D1117] shadow-md rounded-md right-[-30px]"
-                >*/}
-                  {/* Dropdown options 
+                >
+                  {/* Dropdown options */}
                   <Link href="/experience" passHref>
                     <span className="block px-2 py-1 text-base font-normal text-[#3C312A] dark:text-[#FFFCF2] hover:text-[#0070F3] dark:hover:text-[#0070F3]">
                       Experience
                     </span>
-              </Link> */}
+              </Link> 
 
-                  {/* Nested Projects Dropdown 
+                  {/* Nested Projects Dropdown */}
                   <div className="relative inline-block">
                     <button
                       onMouseEnter={() => setShowProjectsDropdown(true)}
@@ -177,7 +173,7 @@ export default function Navbar() {
                         fill="currentColor"
                         className="bi bi-arrow-down inline-block h-3 w-3"
                         viewBox="0 0 16 16"
-                      >
+                    > 
                         <path
                           fillRule="evenodd"
                           d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
@@ -213,14 +209,14 @@ export default function Navbar() {
                             Discord Bot
                           </span>
                         </Link>
-                        {/* Add more project links as needed 
+                        {/* Add more project links as needed */}
                       </div>
                     )}
                   </div>
                 </div>
               )} 
             </h1>
-          </div> */}
+          </div>
 
 
           {/* Contact */}
