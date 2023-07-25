@@ -31,7 +31,7 @@ export default function Hero() {
       </div>
 
       {/* Image container */}
-      <div className="w-full px-10 md:w-1/3 flex justify-start">
+      <div className="w-full px-10 md:w-1/3 flex flex-col items-center justify-center md:justify-center">
         <img
           src={userData.avatarUrl}
           alt="avatar"

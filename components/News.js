@@ -6,13 +6,13 @@ import "slick-carousel/slick/slick-theme.css";
 
 
 const NewsContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px md:20px;
-  background-color: ${(props) => props.theme.backgroundColor};
-  border-radius: 20px;
-  box-shadow: ${(props) => props.theme.boxShadow};
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 20px; /* Updated padding */
+  background-color: ${(props) => props.theme.backgroundColor};
+  border-radius: 20px;
+  box-shadow: ${(props) => props.theme.boxShadow};
 `;
 
 const NewsTitle = styled.h1`
@@ -153,7 +153,7 @@ export default function News() {
 
   return (
     <NewsContainer>
-      <div className="max-w-6xl mx-auto h-48 bg-[#F4F3EE] dark:bg-[#1F1F1F]">
+      <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F]">
         <h1 className=" text-6xl md:text-20xl font-bold py-3 text-center dark-[#1F1F1F] md:text-left flex justify-center items-center">
         <NewsTitle>Recent News in Tech!</NewsTitle>
         </h1>

@@ -34,7 +34,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="bg-[#f4f3ee] dark:bg-[#1F1F1F]">
+    <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F]">
       <div className="max-w-6xl mx-auto grid grid-cols-2 gap-20 mt-10">
         {projects.map((project) => (
           <div key={project.id}>

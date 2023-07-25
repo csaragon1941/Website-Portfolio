@@ -48,7 +48,7 @@ export default function Contact() {
   };
   return (
     <section>
-      <div className="max-w-6xl mx-auto h-48 bg-[#F4F3EE] dark:bg-[#0D1F22] antialiased">
+      <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#0D1F22] antialiased">
         <h1 className=" text-5xl md:text-9xl font-bold py-10 text-center md:text-center text-[#1F1F1F] dark:text-white">
           Contact
         </h1>
@@ -185,7 +185,7 @@ export default function Contact() {
               </a>
             </div>
           </div>
-          <form className="form rounded-lg bg-[#F4F3EE] p-4 flex flex-col" onSubmit={send}>
+          <form className="form rounded-lg bg-[#F6F5F3] p-4 flex flex-col" onSubmit={send}>
 
 
 

@@ -6,11 +6,11 @@ import RedPlanetCarousel from "./RedPlanetCarousel";
 export default function RedPlanet() {
   return (
     <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F]">
-      <div className="max-w-6xl mx-auto h-48 bg-[#f4f3ee] dark:bg-[#1F1F1F] flex flex-col justify-center items-center">
+      <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F] flex flex-col justify-center items-center">
         <h1 className="text-5xl md:text-8xl font-bold py-3 text-center md:text-left">
           Hazard Hunter
         </h1>
-        <div className="bg-[#f4f3ee] -mat-10 dark:bg-[#1F1F1F]">
+        <div className="bg-[#F6F5F3] -mat-10 dark:bg-[#1F1F1F]">
           <div className="text-container max-w-6xl mx-auto">
             <p
               className="leading-loose text-2xl md:text-3xl font-semibold mx-4 text-center"
@@ -22,7 +22,7 @@ export default function RedPlanet() {
         </div>
       </div>
 
-      <div className="bg-[#f4f3ee] dark:bg-[#1F1F1F] px-3">
+      <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F] px-3">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Links and Job Opportunities */}
           <div>

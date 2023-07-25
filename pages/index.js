@@ -16,9 +16,12 @@ export default function Home({ repositories }) {
       
     >
       <Hero />
-      <News news />
       
       <LatestCode repositories={repositories} />
+
+      <News news />
+      
+      
     </ContainerBlock>
   );
 }
