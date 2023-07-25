@@ -28,6 +28,22 @@ export default function wallet() {
           <div>
             <div className="mt-8">
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+                Development Dates
+              </h1>
+              <div className="bg-[#f4f3ee] -mat-10 dark:bg-[#1F1F1F]">
+                <div className="text-container max-w-6xl mx-auto">
+                  <p
+                    className="leading-loose text-lg md:text-lg mx-4"
+                    style={{ lineHeight: "3rem" }}
+                  >
+                    August 2022 - May 2023
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-8">
+              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Tech Stack
               </h1>
               <div className="flex items-center">
@@ -101,12 +117,25 @@ export default function wallet() {
         <div className="max-w-6xl mx-auto px-4 py-8">
           <h2 className="text-3xl font-semibold mb-4">
             What is it?
-            </h2>
-          <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
-            {projectData.digitalwallet.info}
-          </p>
-          <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
-          </p>
+          </h2>
+          <div>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              We developed a Digital Wallet to facilitate economic opportunities for individuals in the community. This project involved numerous discussions on how to execute it effectively, ultimately leading us to create a Mobile Application for Android users, with plans to expand to iOS in the future. Our main objective was to ensure the app was easily accessible, simple to download, and featured a clear and straightforward front-end design to minimize confusion.
+            </p>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              I took on the roles of lead UI/UX Designer and Product Manager, which provided me with valuable real-world experience in building a Near Field Communication App (NFC) in collaboration with different stakeholders and team members. Our team consisted of three individuals, and we directly worked with one stakeholder. However, we also received assistance from other individuals who supported us throughout the project.
+            </p>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              To develop the app, we utilized various technologies, including the Azure Database, Figma, and Android Studio (Java). Additionally, we conducted extensive external research to enhance the functionality of the application. Through these efforts, we were able to meet the stakeholders' requirements and bring the app up to the desired standard.
+            </p>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              Throughout the project's duration, I achieved my SAFe 5 certification and recently upgraded it to SAFe 6. We also underwent the Microsoft Azure free training online, which significantly improved our understanding of the project and its technical aspects.
+            </p>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              Overall, this project allowed me to gain practical experience in developing an NFC-based Digital Wallet. Working closely with stakeholders, utilizing various technologies, and enhancing my certifications and knowledge base were key highlights of this endeavor.
+            </p>
+          </div>
+
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ export default function OurHouse() {
               className="leading-loose text-2xl md:text-3xl font-semibold mx-4 text-center"
               style={{ lineHeight: "3rem" }}
             >
-              Product Management Project - Sponsored by Alpha Chi Omega 
+              Product Management Project - Sponsored by Alpha Chi Omega
             </p>
           </div>
         </div>
@@ -30,8 +30,8 @@ export default function OurHouse() {
               <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
                 Tech Stack
               </h1>
-              
-             {/* Picture 1 */}
+
+              {/* Picture 1 */}
               <div className="flex items-center">
                 <img
                   src="tech stack/figma.svg"
@@ -102,12 +102,20 @@ export default function OurHouse() {
         <div className="max-w-6xl mx-auto px-4 py-8">
           <h2 className="text-3xl font-semibold mb-4">
             What is it?
-            </h2>
-          <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
-            {projectData.ourhouse.info}
-          </p>
-          <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
-          </p>
+          </h2>
+          <div>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              During a school project, we embarked on a class assignment that provided an invaluable opportunity to apply my skills as a Product Manager in a real-world context. With a clear objective in mind, I set out to create a practical application, and I chose to collaborate with Alpha Chi Omega, my sorority, leveraging my deep understanding of the organization and identifying areas where technology could make a significant impact.
+            </p>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              To ensure a robust foundation, we meticulously documented our progress, crafting formal Business Requirement Specifications (BRS) and System Requirement Specifications (SRS) tailored specifically for our esteemed sponsor. By closely engaging with stakeholders, our aim was to develop an intuitive, efficient, and visually captivating app that would address the existing application's limitations. To approach writing, interviews, and requirements gathering comprehensively and efficiently, I skillfully incorporated the Elder Paul Model and other pertinent resources. While coding wasn't the focus of this project, I presented Alpha Chi Omega with a wireframe illustrating a potential user experience (UX) design that could be implemented during the production phase. My primary focus was on delivering top-notch outputs, relying heavily on critical thinking throughout the entire process.
+            </p>
+            <p className="text-lg text-gray-800 dark:text-[#FFFCF2] mb-4">
+              The project provided an ideal platform to exercise my product management skills, fostering productive stakeholder collaboration, and culminating in a tangible solution that could positively transform the organization's operations.
+            </p>
+          </div>
+
+
         </div>
       </div>
     </section>

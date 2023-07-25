@@ -4,59 +4,51 @@ import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 
 export default function Hero() {
-  const colors = ["#73AB84", "#99D19C", "#79C7C5", "#98DADE"];
-  
-  
   return (
-    <div className="flex flex-row space-y-[10px] justify-center items-start overflow-hidden">
+    <div className="container flex flex-col lg:flex-row mx-auto md:mx-20 items-center justify-center md:justify-between">
       {/* Text container */}
-
-      <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20 grid md:grid-cols-1 gap-11 space-y-[20px] lg:-mt-100 pb-40 ">
-        <RoughNotationGroup show={true}>
-          <RainbowHighlight color={colors[0]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-[#151415] dark:text-[#FFFCF2] my-2">
-              Engineer.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[1]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-[#151415] dark:text-[#FFFCF2] my-2">
-              Product Manager.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[2]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-[#151415] dark:text-[#FFFCF2] my-2">
-              Developer.
-            </h1>
-          </RainbowHighlight>
-          <RainbowHighlight color={colors[3]}>
-            <h1 className="text-4xl md:text-8xl font-bold text-[#151415] dark:text-[#FFFCF2] my-2 ">
-              Business Owner.
-            </h1>
-          </RainbowHighlight>
-        </RoughNotationGroup>
+      <div className="hero-info pb-2 md:pb-0 px-4 md:px-10">
+        <h1 className="text-4xl lg:text-5xl">
+          Hi, <br /> I am Christina Aragon <br />
+        </h1>
+        <div style={{ position: 'relative' }}>
+          <RoughNotationGroup show={true}>
+            <RainbowHighlight color={"#60A5FA"} darkColor={"#FFD166"} isDarkMode={true}>
+              <h1 className="flex px-2 mx-auto text-4xl md:text-3xl font-semibold text-black dark:text-white my-2">
+                SAFe® 5 Product Manager
+              </h1>
+            </RainbowHighlight>
+          </RoughNotationGroup>
+        </div>
+        {/* Button */}
+        <div className="flex justify-center py-5 mt-4">
+          <a href="/aragon-resume.pdf" target="_blank" rel="noopener noreferrer">
+            <button className="border-2 border-indigo-400 hover:border-indigo-600 bg-transparent text-black dark:text-white font-bold py-2 px-4 rounded dark:bg-transparent dark:border-indigo-400 hover:border-indigo-200">
+              My Resume!
+            </button>
+          </a>
+        </div>
       </div>
+
       {/* Image container */}
-      <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-        <div className="w-3/4 ">
-          <img src={userData.avatarUrl} alt="avatar" className=" shadow" />
-          <div className="flex flex-row justify-between mt-4">
-            <div className="flex flex-row space-x-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-90deg-up"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M4.854 1.146a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L4 2.707V12.5A2.5 2.5 0 0 0 6.5 15h8a.5.5 0 0 0 0-1h-8A1.5 1.5 0 0 1 5 12.5V2.707l3.146 3.147a.5.5 0 1 0 .708-.708l-4-4z"
-                />
-              </svg>
-              <p className="font-mono">That's me! </p>
-            </div>
-          </div>
+      <div className="w-full px-10 md:w-1/3 flex justify-start">
+        <img
+          src={userData.avatarUrl}
+          alt="avatar"
+          className="shadow rounded-full"
+          style={{ maxWidth: "200px", width: "100%", height: "auto" }}
+        />
+        <div className="flex flex-row space-x-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className="bi bi-arrow-90deg-up"
+            viewBox="0 0 16 16"
+          >
+            {/* SVG path data */}
+          </svg>
         </div>
       </div>
     </div>
