@@ -9,12 +9,12 @@ const userData = {
 
   about: {
     title:
-      "Christina Aragon, Accomplished Software Engineer and Product Manager Shaping the Future.",
+      "",
     description: [
       `Christina Aragon is a highly motivated individual with a strong background in academics and campus involvement. She brings a unique blend of technical expertise and people skills to the table, and her university education has equipped her with the knowledge and skills to effectively manage complex software development projects from start to finish.`,
       `Christina has a deep passion for working with people and solving complex problems, and brings this enthusiasm to every project she works on. Her ability to communicate effectively with cross-functional teams, stakeholders, and clients has been critical to her success in delivering high-quality software solutions that meet business objectives. As she looks to launch her career, Christina is eager to bring her skills and passion to a new challenge, and believes she can make a meaningful impact on future endeavors as a Product Manager, Scrum Master/ Team Coach, or even as a Front-End Developer.`,
     ],
-    currentProject: "A Personal Project",
+    currentProject: "Trouble In Tiki: Adventure Game",
     currentProjectUrl: "",
   },
   experience: [

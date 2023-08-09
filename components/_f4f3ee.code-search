@@ -1,0 +1,84 @@
+# Query: #f4f3ee
+# ContextLines: 1
+
+18 results - 8 files
+
+components/Contact.js:
+   50      <section>
+   51:       <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#0D1F22] antialiased">
+   52          <h1 className=" text-5xl md:text-9xl font-bold py-10 text-center md:text-center text-[#1F1F1F] dark:text-white">
+
+  187            </div>
+  188:           <form className="form rounded-lg bg-[#F6F5F3] p-4 flex flex-col" onSubmit={send}>
+  189  
+
+components/ContainerBlock.js:
+  44        </Head>
+  45:       <main className=" bg-[#F6F5F3] dark:bg-[#1F1F1F]"> {/* NAV BAR COLOR*/}
+  46          <Navbar />
+
+components/DigitalWallet.js:
+   8      <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F]">
+   9:       <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F] flex flex-col justify-center items-center">
+  10          <h1 className="text-5xl md:text-8xl font-bold py-3 text-center md:text-left">
+
+  12          </h1>
+  13:         <div className="bg-[#F6F5F3] -mat-10 dark:bg-[#1F1F1F]">
+  14            <div className="text-container max-w-6xl mx-auto">
+
+  24  
+  25:       <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F] px-3">
+  26          <div className="pt-20 grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-y-20 gap-x-20">
+
+  32                </h1>
+  33:               <div className="bg-[#F6F5F3] -mat-10 dark:bg-[#1F1F1F]">
+  34                  <div className="text-container max-w-6xl mx-auto">
+
+components/DiscordBot.js:
+   8      <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F]">
+   9:       <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F] flex flex-col justify-center items-center">
+  10          <h1 className="text-5xl md:text-8xl font-bold py-3 text-center md:text-left">
+
+  12          </h1>
+  13:         <div className="bg-[#F6F5F3] -mat-10 dark:bg-[#1F1F1F]">
+  14            <div className="text-container max-w-6xl mx-auto">
+
+  24  
+  25:       <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F] px-3">
+  26          <div className="pt-20 grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-y-20 gap-x-20">
+
+components/News.js:
+  155      <NewsContainer>
+  156:       <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F]">
+  157          <h1 className=" text-6xl md:text-20xl font-bold py-3 text-center dark-[#1F1F1F] md:text-left flex justify-center items-center">
+
+components/OurHouse.js:
+   8      <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F]">
+   9:       <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F] flex flex-col justify-center items-center">
+  10          <h1 className="text-5xl md:text-8xl font-bold py-3 text-center md:text-left">
+
+  12          </h1>
+  13:         <div className="bg-[#F6F5F3] -mat-10 dark:bg-[#1F1F1F]">
+  14            <div className="text-container max-w-6xl mx-auto">
+
+  24  
+  25:       <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F] px-3">
+  26          <div className="pt-20 grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-y-20 gap-x-20">
+
+components/Projects.js:
+  36    return (
+  37:     <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F]">
+  38        <div className="max-w-6xl mx-auto grid grid-cols-2 gap-20 mt-10">
+
+components/RedPlanet.js:
+   8      <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F]">
+   9:       <div className="max-w-6xl mx-auto h-48 bg-[#F6F5F3] dark:bg-[#1F1F1F] flex flex-col justify-center items-center">
+  10          <h1 className="text-5xl md:text-8xl font-bold py-3 text-center md:text-left">
+
+  12          </h1>
+  13:         <div className="bg-[#F6F5F3] -mat-10 dark:bg-[#1F1F1F]">
+  14            <div className="text-container max-w-6xl mx-auto">
+
+  24  
+  25:       <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F] px-3">
+  26          <div className="pt-20 grid grid-cols-1 md:grid-cols-2 max-w-6xl mx-auto gap-y-20 gap-x-20">

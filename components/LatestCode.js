@@ -7,38 +7,25 @@ export default function LatestCode({ repositories }) {
   const [repos, setRepos] = useState(repositories);
 
   return (
-    <section className="bg-[#F7F4F3] -mt-40 dark:bg-[#1F1F1F] pt-20 pb-40">
+    <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F] pt-5 pb-20">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-col md:flex-row justify-between items-center md:pt-40 py-40 mx-10">
-          <h1 className="text-4xl lg:text-7xl max-w-lg font-bold text-brown-300 my-10 md:my-30 md:text-[#221E1B] dark:text-[#FFFFFF] text-center lg:text-left">
-            Latest Code
-          </h1>
-
-          <a
-            href={`https://github.com/${userData.githubUsername}`}
-            
-        //To change button properties
-            className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-[#483A33] hover:bg-[#625041] dark:bg-[#00B8AE] dark:hover:bg-[#00A39B] shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center text-white" >
-
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              className="bi bi-arrow-up-right-square"
-              stroke="4"
-              strokeWidth="4"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fillRule="evenodd"
-                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
-              />
-            </svg>
-            <p>View GitHub</p>
-          </a>
+        <div className="flex flex-col md:flex-row justify-between items-center md:mx-10 mt-221`np0">
+          <div className="md:w-1/2">
+            <h1 className="text-5xl md:text-[#221E1B] dark:text-[#FFFFFF] text-center lg:text-left font-bold text-brown-300 my-10 md:my-30">
+              Latest Code
+            </h1>
+          </div>
+          <div className="md:w-1/2 flex justify-center py-2">
+            <a href="github.com/csaragon1941" target="_blank" rel="noopener noreferrer">
+            <button className="border-2 border-indigo-400 hover:border-indigo-600 bg-transparent text-black dark:text-white font-bold py-2 px-4 rounded dark:bg-transparent dark:border-indigo-400 hover:border-indigo-200">
+                GitHub Portfolio
+              </button>
+            </a>
+          </div>
         </div>
+
       </div>
+    <div className="py-20 md: justify-center">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-10 lg:-mt-10 gap-y-20">
         {/* Single github Repo */}
 
@@ -47,6 +34,8 @@ export default function LatestCode({ repositories }) {
             <GithubRepoCard latestRepo={latestRepo} key="idx" />
           ))}
       </div>
+    </div>
+
     </section>
   );
 }
@@ -54,15 +43,15 @@ export default function LatestCode({ repositories }) {
 const GithubRepoCard = ({ latestRepo }) => {
   return (
     <div className="github-repo">
-      <h1 className="font-semibold text-xl  text-[#483A33] dark:text-[#00CCC2] ">
+      <h1 className="font-semibold text-xl  text-[##221E1B] dark:text-[#00CCC2] ">
         {latestRepo.name}
       </h1>
-      <p className="text-base font-normal my-4 text-[#927563] dark:text-[#EBFFFE]">
+      <p className="text-base font-normal my-4 text-[#828DC4] dark:text-[#EBFFFE]">
         {latestRepo.description}
       </p>
       <a
         href={latestRepo.clone_url}
-        className="font-semibold group flex flex-row space-x-2 w-full items-center text-[#483A33] dark:text-[#C2FFFC]"
+        className="font-semibold group flex flex-row space-x-2 w-full items-center text-[#485799] dark:text-[#C2FFFC]"
       >
         <p>View Repository </p>
         <div className="transform  group-hover:translate-x-2 transition duration-300">

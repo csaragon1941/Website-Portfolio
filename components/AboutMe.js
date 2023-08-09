@@ -7,26 +7,17 @@ export default function AboutMe() {
   return (
     <section className="bg-[#F7F4F3] dark:bg-[#1F1F1F]">
       <div className="max-w-6xl mx-auto h-48 bg-[#F7F4F3] dark:bg-[#1F1F1F]">
-        <h1 className="text-5xl md:text-8xl font-bold py-20 text-center md:text-center">
+        <h1 className="text-5xl md:text-7xl font-bold text-center md:text-center">
           About Me
         </h1>
+
+        <h2 className="text-5xl md:text-7xl font-bold py-10 text-center md:text-center">
+            
+
+        </h2>
+
       </div>
-      <div className="bg-[#F7F4F3] -mt-10 dark:bg-[#1F1F1F]">
-        <div className="text-container max-w-6xl mx-auto pt-20">
-          <p
-            className="leading-loose text-2xl md:text-3xl font-semibold mx-4 my-5"
-            style={{ lineHeight: "3rem" }}
-          >
-            {userData.about.title}. Currently working on{" "}
-            <a
-              className="bg-[#B3C3E5] dark:bg-[#F3F5F7] rounded-md px-2 py-1 text-[#1E355C] dark:text-[#6C5B4B]"
-              href={userData.about.currentProjectUrl}
-            >
-              {userData.about.currentProject} ✈️
-            </a>
-          </p>
-        </div>
-      </div>
+
       <div className="bg-[#F7F4F3] dark:bg-[#1F1F1F] px-3">
         <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
           {/* Social Links and Job Opportunities */}
@@ -132,37 +123,32 @@ export default function AboutMe() {
               </p>
             ))}
 
-            <div className="flex flex-col justify-center items-center h-full">
-              <a
-                href="/projects"
-                className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-[#483A33] hover:bg-[#625041] dark:bg-[#00B8AE] dark:hover:bg-[#00A39B] shadow-lg text-xl font-semibold flex flex-row space-x-4 items-center text-center md:text-[#F7F4F3] dark:text-[#F3F7F3]"
-                style={{ marginTop: "-450px" }}
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  className="bi bi-arrow-up-right-square"
-                  stroke="4"
-                  strokeWidth="4"
-                  viewBox="0 0 16 16"
+            <div className="bg-[#F7F4F3] -mt-10 dark:bg-[#1F1F1F]">
+              <div className="text-container text-center max-w-6xl mx-auto pt-20">
+                <p
+                  className="leading-loose text-2xl md:text-3xl font-semibold mx-4 my-5"
+                  style={{ lineHeight: "3rem" }}
                 >
-                  <path
-                    fillRule="evenodd"
-                    d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
-                  />
-                </svg>
-                <p>View Projects!</p>
-              </a>
+                  {userData.about.title} Currently working on <br /> {" "}
+                  <a
+                    className="bg-[#10B981] dark:bg-[#F3F5F7] rounded-md px-2 py-1 text-white dark:text-[#6C5B4B]"
+                    href={userData.about.currentProjectUrl}
+                  >
+                    {userData.about.currentProject} 
+                  </a>
+                </p>
+                <a href="/projects" target="_blank" rel="noopener noreferrer">
+                  <button className="border-2 border-[#14B8A6] hover:border-[#0D9488] bg-transparent text-black dark:text-white font-bold py-2 px-4 rounded dark:bg-transparent dark:border-indigo-400 hover:border-indigo-200">
+                    View More Projects!
+                  </button>
+                </a>
+              </div>
             </div>
-
-
           </div>
         </div>
       </div>
 
-      <div className=" my-5">
+      <div className=" my-10">
         <h1 className="text-6xl font-semibold text-center">
           Tech Stack
         </h1>

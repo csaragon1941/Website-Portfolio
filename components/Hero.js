@@ -15,7 +15,7 @@ export default function Hero() {
           <RoughNotationGroup show={true}>
             <RainbowHighlight color={"#60A5FA"} darkColor={"#FFD166"} isDarkMode={true}>
               <h1 className="flex px-2 mx-auto text-4xl md:text-3xl font-semibold text-black dark:text-white my-2">
-                SAFe® 5 Product Manager
+                SAFe® 6 Product Manager
               </h1>
             </RainbowHighlight>
           </RoughNotationGroup>
