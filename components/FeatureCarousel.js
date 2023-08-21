@@ -17,7 +17,7 @@ const FeatureCarousel = ({ images }) => {
             </div>
 
             <div className="flex justify-center mt-10">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 ">
                     {images.map((imageData, index) => (
                         <a key={index} href={imageData.link} className="block">
                             <div

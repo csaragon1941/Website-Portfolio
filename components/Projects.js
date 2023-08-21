@@ -21,7 +21,7 @@ export default function Projects() {
       id: 3,
       title: "Discord Bot",
       description: "Description of Project 3",
-      image: "/thumbnail/DcBot.png",
+      image: "/thumbnail/discordbot.png",
       link: "./discordbot",
     },
     {
@@ -35,19 +35,25 @@ export default function Projects() {
 
   return (
     <div className="bg-[#F6F5F3] dark:bg-[#1F1F1F]">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-20 mt-10">
+      <div className="max-w-6xl mx-auto bg-[#F7F4F3] dark:bg-[#1F1F1F]">
+        <h1 className="text-5xl md:text-7xl font-bold text-center md:text-center">
+          Projects
+        </h1>
+      </div>
+
+      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-20 mt-20 py-4">
         {projects.map((project) => (
           <div key={project.id}>
-            <div className="text-center h-64 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg relative ">
+            <div className="text-center font-mono h-64 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg relative ">
               <Link href={project.link} passHref>
                 <img
                   src={project.image}
-                  alt={project.title}
+                  alt=''
                   className="h-full w-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
 
                 />
 
-                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2 py-2">
+                <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2 py-4">
                   {project.title}
                 </h3>
               </Link>

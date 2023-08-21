@@ -209,7 +209,7 @@ export default function AboutMe() {
 
 
       {/*Box 1*/}
-      <div className="bg-white  rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto" style={{ maxWidth: "60rem", border: "2px solid #FFA500" }}>
+      <div className="bg-white  rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-500 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #FFA500" }}>
         <h1 className="text-3xl font-bold flex justify-center">
           Product
         </h1>
@@ -231,7 +231,7 @@ export default function AboutMe() {
       {/* END Box 1 */}
 
       {/*Box 2*/}
-      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto" style={{ maxWidth: "60rem", border: "2px solid #FF69B4" }}>
+      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-500 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #FF69B4" }}>
         <h1 className="text-3xl font-bold flex justify-center">
           Front-End Developer
         </h1>
@@ -252,7 +252,7 @@ export default function AboutMe() {
       {/* END Box 2*/}
 
       {/*Box 3*/}
-      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto" style={{ maxWidth: "60rem", border: "2px solid #8A2BE2" }}>
+      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-500 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #8A2BE2" }}>
         <h1 className="text-3xl font-bold flex justify-center">
           Software Engineering Student
         </h1>
