@@ -55,7 +55,7 @@ export default function AboutMe() {
 
 
             <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+              <h1 className="text-xl font-semibold text-gray-900 dark:text-gray-200">
                 Featured Projects
               </h1>
 
@@ -65,7 +65,7 @@ export default function AboutMe() {
                 <a
                   href="/aragon-resume.pdf"
                   target="__blank"
-                  className="text-gray-800  border-gray-800 dark:border-gray-300 font-mono dark:text-gray-300"
+                  className="text-gray-500  border-gray-800 dark:border-gray-300 font-mono dark:text-gray-300"
                 >
                   NFC Application
                 </a>{" "}
@@ -80,7 +80,7 @@ export default function AboutMe() {
                 <a
                   href="/aragon-resume.pdf"
                   target="__blank"
-                  className="text-gray-800  border-gray-800 dark:border-gray-300 font-mono dark:text-gray-300"
+                  className="text-gray-500  border-gray-500 dark:border-gray-300 font-mono dark:text-gray-300"
                 >
                   Discord Bot
                 </a>{" "}
@@ -94,7 +94,7 @@ export default function AboutMe() {
                   <a
                     href="/aragon-resume.pdf"
                     target="__blank"
-                    className="text-gray-800  border-gray-800 dark:border-gray-300 font-mono dark:text-gray-300"
+                    className="text-gray-500  border-gray-500 dark:border-gray-300 font-mono dark:text-gray-300"
                   >
                     Mars Rover
                   </a>{" "}
@@ -201,7 +201,7 @@ export default function AboutMe() {
       </div>
 
 
-      <div className=" my-10">
+      <div className=" my-20">
         <h1 className="text-6xl font-semibold text-center">
           Specialties
         </h1>
@@ -209,7 +209,7 @@ export default function AboutMe() {
 
 
       {/*Box 1*/}
-      <div className="bg-white  rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-500 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #FFA500" }}>
+      <div className="bg-white  rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-300 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #FFA500" }}>
         <h1 className="text-3xl font-bold flex justify-center">
           Product
         </h1>
@@ -231,7 +231,7 @@ export default function AboutMe() {
       {/* END Box 1 */}
 
       {/*Box 2*/}
-      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-500 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #FF69B4" }}>
+      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-300 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #FF69B4" }}>
         <h1 className="text-3xl font-bold flex justify-center">
           Front-End Developer
         </h1>
@@ -252,7 +252,7 @@ export default function AboutMe() {
       {/* END Box 2*/}
 
       {/*Box 3*/}
-      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-500 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #8A2BE2" }}>
+      <div className="bg-white rounded-xl shadow-md px-6 py-4 text-gray-700 mb-4 dark:bg-gray-800 dark:text-gray-300 mx-auto transform transition-transform duration-300 hover:scale-105" style={{ maxWidth: "60rem", border: "2px solid #8A2BE2" }}>
         <h1 className="text-3xl font-bold flex justify-center">
           Software Engineering Student
         </h1>
@@ -271,6 +271,16 @@ export default function AboutMe() {
         </p>
       </div>
       {/* END Box 3*/}
+
+      <div className="flex mx-auto">
+      <p className="mt-10 mx-auto">
+        <a href="/experience" target="_blank" rel="noopener noreferrer">
+          <button className="border-2 border-[#14B8A6] hover:border-[#0E8173] bg-transparent text-black dark:text-white font-bold py-2 px-4 rounded dark:bg-transparent dark:border-indigo-400 hover:border-indigo-200">
+            View All Experiences!
+          </button>
+        </a>
+      </p>
+    </div>
 
     </section >
   );
