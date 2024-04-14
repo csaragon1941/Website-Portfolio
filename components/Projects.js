@@ -40,8 +40,8 @@ export default function Projects() {
           Projects
         </h1>
       </div>
-
-      <div className="max-w-6xl mx-auto grid grid-cols-2 gap-20 mt-20 py-4">
+      <div className="max-w-6xl mx-auto p-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-20 mt-20 lg:grid-cols-3 max-w-6xl mx-auto gap-20 mt-20 py-4 sm:py-4">
         {projects.map((project) => (
           <div key={project.id}>
             <div className="text-center font-mono h-64 bg-gray-100 dark:bg-gray-800 rounded-lg shadow-md hover:shadow-lg relative ">
@@ -49,7 +49,7 @@ export default function Projects() {
                 <img
                   src={project.image}
                   alt=''
-                  className="h-full w-full object-cover rounded-lg transform transition-transform duration-300 hover:scale-105"
+                  className="h-full w-full sm: mx-auto object-cover rounded-lg transform transition-transform duration-300 hover:scale-105 "
 
                 />
 
@@ -58,10 +58,12 @@ export default function Projects() {
                 </h3>
               </Link>
 
-
+              </div>
             </div>
-          </div>
+
+        
         ))}
+      </div>
       </div>
     </div>
   );

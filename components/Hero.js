@@ -22,7 +22,7 @@ export default function Hero() {
         </div>
         {/* Button */}
         <div className="flex justify-center py-5 mt-4">
-          <a href="/aragon-resume.pdf" target="_blank" rel="noopener noreferrer">
+          <a href="/ca-resume-april.pdf" target="_blank" rel="noopener noreferrer">
             <button className="border-2 border-indigo-400 hover:border-indigo-600 bg-transparent text-black dark:text-white font-bold py-2 px-4 rounded dark:bg-transparent dark:border-indigo-400 hover:border-indigo-200">
               My Resume!
             </button>
